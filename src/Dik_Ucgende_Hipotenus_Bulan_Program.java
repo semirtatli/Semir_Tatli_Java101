@@ -6,11 +6,14 @@ public class Dik_Ucgende_Hipotenus_Bulan_Program {
 
     Scanner input = new Scanner(System.in);
     System.out.print("A kenarinin uzunlugunu giriniz: ");
-    int a = input.nextInt();
+    double a = input.nextDouble();
     System.out.print("B kenarinin uzunlugunu giriniz: ");
-    int b = input.nextInt();
-    double c = Math.sqrt(a*a+b*b);
-    System.out.println("Hipotenusun uzunlugu: " + c);
+    double b = input.nextDouble();
+    System.out.print("C kenarinin uzunlugunu giriniz: ");
+    double c = input.nextDouble();
+    double u = (a+b+c)/2;
+    double alan = Math.sqrt(u * (u-a) * (u-b) * (u-c));
+    System.out.println("Alan: " + alan);
 
     }
 }

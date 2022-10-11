@@ -11,7 +11,7 @@ public class HavaSicakligiEtkinlik {
         else if (heat < 10)
             System.out.println("Sinemaya gidebilirsiniz");
         else if (heat >= 10 && heat <= 15) {
-            System.out.println("Sinemaya gidebilir veya Piknik yapabilirsiniz");
+            System.out.println("Sinemaya gidebilir veya piknik yapabilirsiniz");
         }
         else if (heat < 25)
             System.out.println("Piknik yapabilirsiniz");

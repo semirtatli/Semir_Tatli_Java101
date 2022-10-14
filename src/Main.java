@@ -6,5 +6,8 @@ public class Main {
         System.out.println("... giriniz: ");
         int a = input.nextInt();
         System.out.println(a);
+
+
+
     }
 }
